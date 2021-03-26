@@ -22,7 +22,7 @@ with open("vaccine_administration_timeseries_prov.csv", 'wb') as handle:
 vaccine_Data = pd.read_csv("vaccine_administration_timeseries_prov.csv")
 
 
-ON_vaccine_data = vaccine_Data.loc[vaccine_Data['province'] == "QC"]
+ON_vaccine_data = vaccine_Data.loc[vaccine_Data['province'] == "Quebec"]
 
 
 
